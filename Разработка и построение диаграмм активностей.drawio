@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.7">
   <diagram name="Страница — 1" id="C78Li3GXihYNXvKxE5Rf">
-    <mxGraphModel>
+    <mxGraphModel dx="1238" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-1" value="Пользователь" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="100" width="200" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-8" value="Регистрация" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="fq6UTzh0L9SKd7ENrHkJ-1">
+          <mxGeometry x="40" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-11" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="fq6UTzh0L9SKd7ENrHkJ-1">
+          <mxGeometry x="85" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-2" value="Система бронирования" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="610" width="200" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-9" value="Поиск рейсов" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="fq6UTzh0L9SKd7ENrHkJ-2">
+          <mxGeometry x="30" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-10" value="Бронирование рейсов" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="fq6UTzh0L9SKd7ENrHkJ-2">
+          <mxGeometry x="30" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-5" value="API авиакомпаний" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="100" width="200" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-6" value="Платежный шлюз" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="680" width="200" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fq6UTzh0L9SKd7ENrHkJ-7" value="Личный кабинет" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="200" height="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
